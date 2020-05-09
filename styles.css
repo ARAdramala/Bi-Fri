@@ -14,7 +14,7 @@ h1{
 }
 
 h1::before, h1::after{
-    content: 'DAVID';
+    content: 'Bi Fri';
     top: 0;
     left: 0;
     position: absolute;
