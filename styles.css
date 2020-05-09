@@ -14,7 +14,7 @@ h1{
 }
 
 h1::before, h1::after{
-    content: 'Bi Fri';
+    content: 'BiFri';
     top: 0;
     left: 0;
     position: absolute;
