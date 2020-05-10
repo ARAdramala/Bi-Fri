@@ -18,6 +18,7 @@
 .header_flex{
     display: inline-flex;
     align-items: center;
+    background-color: darkviolet;
 }
 
 p.header{
@@ -149,4 +150,9 @@ div.language{
 img.language{
     height: 12px;
     margin: 0px 0px 0px 10px
+}
+
+div.navbar_horizontal_divider{
+    height: 20px;
+    width: auto;
 }
