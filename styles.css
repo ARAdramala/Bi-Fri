@@ -1,3 +1,11 @@
+/*@import url("https://fonts.googleapis.com/css?family=Exo+2");*/
+@import url("https://fonts.googleapis.com/css2?family=Exo+2:wght@500&family=Exo:ital,wght@1,900&display=swap");
+
+body {
+  font-family: "Exo 2", sans-serif;
+  font-size: 100%;
+}
+
 #header{
     width: 100vw;
     height: 125px;
@@ -13,16 +21,21 @@
 
 .header_spacer{
     height: 15px;
+    background-color: #ABBAF4
 }
 
 .header_flex{
     display: inline-flex;
     align-items: center;
-    background-color: darkviolet;
+    background-color: #ABBAF4;
 }
 
 p.header{
     color: white;
+    font-family: 'Exo', oblique;
+    font-size: 90px; 
+    margin: 0px;
+    font-weight: 900;
 }
 
 #margin_header_spacer{
@@ -36,7 +49,7 @@ div.vertical_spacer{
 div.navbar{
     width: 100vw;
     height: 30px;
-    background-color: gray;
+    background-color: #C6CCF4;
     display: flex;
     align-content: center; 
 }
@@ -46,7 +59,7 @@ div.navbar{
 }
 
 body{
-    background-color: black
+    background-color: black;
 }
 
 .navbar{
@@ -80,7 +93,7 @@ body{
 
 .delante{
     transform: rotateY(0deg);
-    background-color: gray;
+    background-color: #C6CCF4;
     line-height: 180%;
     text-align: center;
 }
@@ -88,7 +101,7 @@ body{
 .derecha {
     transform: rotateY(90deg);
     left: 80px;
-    background-color: darkmagenta;
+    background-color: #D881F4;
     text-align: center;
 }
 
@@ -126,12 +139,12 @@ body{
 .menuCSS3 a {
     display: block;
     padding: 0.5em 0em;
-    background-color: gray;
+    background-color: #ABBAF4;
     text-decoration: none;
     color: #FFF;
 }
 .menuCSS3 a:hover {
-    background-color: darkmagenta;
+    background-color: #D881F4;
 }
 .menuCSS3 ul li ul {
     display: none;
@@ -144,7 +157,7 @@ body{
 div.language{
     text-align: center;
     height: inherit;
-    width: 100px
+    width: 100px;
 }
 
 img.language{
@@ -155,4 +168,5 @@ img.language{
 div.navbar_horizontal_divider{
     height: 20px;
     width: auto;
+    background-color: #ABBAF4;
 }
