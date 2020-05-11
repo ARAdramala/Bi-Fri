@@ -71,7 +71,7 @@ div.navbar{
 }
 
 .division{
-    width: 100px;
+    width: 120px;
     height: 40px;
 }
 
@@ -146,7 +146,7 @@ div.navbar{
     padding: 0.5em 0em 0.5em 0.5em;
     background-color: #C6CCF4;
     text-decoration: none;
-    color: #FFF;
+    color: #000;
 }
 .menuCSS3 a:hover {
     background-color: #D881F4;
@@ -191,11 +191,76 @@ div.navbar_horizontal_divider{
 }
 
 .su{
-    height: 20000px;
     padding: 200px 20vw 0vw 20vw;
     background-color: 
 }
 
 .pnavbar{
-    color: white;
+    color: black;
+}
+
+.first_level{
+    height: 550px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+
+.first_level_container_type1{
+    height: 100%;
+    width: 50%;
+    text-align: justify;
+}
+
+a:link {
+  text-decoration: none;
+  color: black;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  text-decoration: underline;
+}
+
+.funciones_button a:link {
+    text-decoration: none;
+    color: #EDF2F7;
+    margin: 20px;
+    height: 50px;
+    width: 270px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid #ABBAF4;
+    border-radius: 20px;
+    background-color: #ABBAF4;
+}
+
+.funciones_button a:visited {
+  text-decoration: none;
+  color: #EDF2F7;
+}
+
+.funciones_button a:hover {
+  text-decoration: none;
+  color: #ABBAF4;
+  background-color: #EDF2F7;
+}
+
+.funciones_button a:active {
+  text-decoration: underline;
+}
+
+footer{
+    background-color: #610C7D;
+    
+    height: 150px
 }
