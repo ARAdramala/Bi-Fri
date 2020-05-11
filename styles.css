@@ -4,19 +4,20 @@
 body {
   font-family: "Exo 2", sans-serif;
   font-size: 100%;
+  margin: 0px;
 }
 
 #header{
     width: 100vw;
     height: 125px;
     background-color: black;
-    position: absolute;
+    position: fixed;
     top: 0px;
 }
 
 #logo_header{
-    width: 100px;
-    height: 100px;
+    width: 50px;
+    height: 50px;
 }
 
 .header_spacer{
@@ -33,7 +34,7 @@ body {
 p.header{
     color: white;
     font-family: 'Exo', oblique;
-    font-size: 90px; 
+    font-size: 40px; 
     margin: 0px;
     font-weight: 900;
 }
@@ -48,10 +49,11 @@ div.vertical_spacer{
 
 div.navbar{
     width: 100vw;
-    height: 30px;
+    height: 40px;
     background-color: #C6CCF4;
     display: flex;
     align-content: center; 
+    align-items: center;
 }
 
 #nav_spacer{
@@ -63,12 +65,12 @@ body{
 }
 
 .navbar{
-    display: flex
+    display: flex;
 }
 
 .division{
     width: 100px;
-    height: 30px;
+    height: 40px;
 }
 
 .cubo{
@@ -94,8 +96,9 @@ body{
 .delante{
     transform: rotateY(0deg);
     background-color: #C6CCF4;
-    line-height: 180%;
+    line-height: 240%;
     text-align: center;
+    height: 100%;
 }
 
 .derecha {
@@ -107,7 +110,7 @@ body{
 
 .texto{
     position: absolute;
-    top: 25px;
+    top: 30px;
     left: 27%;
     color: #393e46;
     font-family: sans-serif;
@@ -127,7 +130,7 @@ body{
 }
 
 #language_header{
-    width: 40px;
+    width: 20px;
 }
 
 .menuCSS3 ul {
@@ -138,8 +141,8 @@ body{
 }
 .menuCSS3 a {
     display: block;
-    padding: 0.5em 0em;
-    background-color: #ABBAF4;
+    padding: 0.5em 0em 0.5em 0.5em;
+    background-color: #C6CCF4;
     text-decoration: none;
     color: #FFF;
 }
@@ -155,18 +158,35 @@ body{
 }
 
 div.language{
-    text-align: center;
     height: inherit;
     width: 100px;
 }
 
 img.language{
     height: 12px;
-    margin: 0px 0px 0px 10px
+    margin: 0px 0px 0px 0.5em;
 }
 
 div.navbar_horizontal_divider{
     height: 20px;
     width: auto;
     background-color: #ABBAF4;
+}
+
+#logo_header_hid{
+    height: 30px;
+    visibility: hidden;
+}
+
+.visible_nav{
+    display: flex;
+    align-content: space-between;
+}
+
+#language_div_hid{
+    background-color: #C6CCF4;
+}
+
+.su{
+    height: 20000px;
 }
