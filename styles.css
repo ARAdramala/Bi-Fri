@@ -5,12 +5,16 @@ body {
   font-family: "Exo 2", sans-serif;
   font-size: 100%;
   margin: 0px;
+  background-color: #EDF2F7;
+}
+
+#navbar{
+    border: 0px 100px;
 }
 
 #header{
     width: 100vw;
     height: 125px;
-    background-color: black;
     position: fixed;
     top: 0px;
 }
@@ -18,11 +22,12 @@ body {
 #logo_header{
     width: 50px;
     height: 50px;
+    padding-left: 20vw;
 }
 
 .header_spacer{
     height: 15px;
-    background-color: #ABBAF4
+    background-color: #ABBAF4;
 }
 
 .header_flex{
@@ -60,12 +65,9 @@ div.navbar{
     height: 155px;
 }
 
-body{
-    background-color: black;
-}
-
 .navbar{
     display: flex;
+    padding-left: 20vw;
 }
 
 .division{
@@ -185,8 +187,11 @@ div.navbar_horizontal_divider{
 
 #language_div_hid{
     background-color: #C6CCF4;
+    padding-right: 20vw
 }
 
 .su{
     height: 20000px;
+    padding: 10vw 20vw 0vw 20vw;
+    background-color: 
 }
