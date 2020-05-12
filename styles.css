@@ -261,6 +261,48 @@ a:active {
 
 footer{
     background-color: #610C7D;
-    
-    height: 150px
+    display: flex;
+    justify-content: space-between;
+    height: 150px;
+    padding: 0px 20vw;
+}
+
+div.redes_sociales{
+    display: flex;
+    justify-content: space-around;
+    background-color: #EDF2F7;
+}
+
+div.rrss_logo_container{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    /**/
+    margin: 20px;
+    /*padding: 10px;*/
+}
+
+img.rrss{
+    height: inherit;
+    border-radius: 50%;
+}
+
+div.columna_footer{
+    width: 30%;
+    color: white;
+    text-align: center;
+}
+
+div.columna_footer p{
+    margin: 10px 0px 0px 0px;
+}
+
+div.cc{
+    background-color: #3ED94B;
+    display: flex;
+    justify-content: center;
+    height: 43px;
+    padding: 0px 35vw;
+    color: white;
+    font-size: 13
 }
