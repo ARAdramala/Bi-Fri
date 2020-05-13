@@ -230,6 +230,23 @@ a:active {
   text-decoration: none;
 }
 
+a.black:link {
+  text-decoration: none;
+  color: black;
+}
+
+a.black:visited {
+  text-decoration: none;
+}
+
+a.black:hover {
+  text-decoration: none;
+}
+
+a.black:active {
+  text-decoration: none;
+}
+
 .funciones_button a:link {
     text-decoration: none;
     color: #EDF2F7;
@@ -319,6 +336,10 @@ div.cc{
     .first_level_container_type1 {
         width: 90vw;
         box-sizing: border-box;
+        height: auto;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        margin-top: 20px;
     }
     
     .funciones_button{
