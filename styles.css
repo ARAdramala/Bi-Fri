@@ -306,7 +306,7 @@ div.cc{
     font-size: 13
 }
 
-@media(max-width: 500px){
+@media(max-width: 1000px){
     .su{
         display: block;
         padding-left: 5vw;
