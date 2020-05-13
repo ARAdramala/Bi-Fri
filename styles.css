@@ -312,4 +312,7 @@ div.cc{
         padding-left: 5vw;
         padding-right: 5vw;
     }
+    .first_level{
+        display: block;
+    }
 }
