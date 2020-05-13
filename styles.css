@@ -58,7 +58,7 @@ div.navbar{
     background-color: #A24ACA;
     display: flex;
     align-content: center; 
-    align-items: center;
+    align-items: cente
 }
 
 #nav_spacer{
@@ -216,7 +216,7 @@ div.navbar_horizontal_divider{
 
 a:link {
   text-decoration: none;
-  color: black;
+  color: white;
 }
 
 a:visited {
@@ -224,11 +224,11 @@ a:visited {
 }
 
 a:hover {
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 a:active {
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 .funciones_button a:link {
@@ -304,4 +304,12 @@ div.cc{
     padding: 0px 35vw;
     color: white;
     font-size: 13
+}
+
+@media(max-width: 500px){
+    .su{
+        display: block;
+        padding-left: 5vw;
+        padding-right: 5vw;
+    }
 }
