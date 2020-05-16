@@ -324,7 +324,7 @@ div.cc{
 
 div.second_level{
     width: 100%;
-    height: 250%;
+    height: 2000px;
     display: grid;
     grid-template-columns: 48.5% 48.5%;
     grid-auto-rows: auto;
