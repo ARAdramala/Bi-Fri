@@ -256,7 +256,7 @@ a.black:active {
     display: flex;
     justify-content: center;
     align-items: center;
-    border: solid #ABBAF4;
+    border: solid #A24ACA;
     border-radius: 20px;
     background-color: #A24ACA;
 }
@@ -322,6 +322,106 @@ div.cc{
     font-size: 13
 }
 
+div.second_level{
+    width: 100%;
+    height: 250%;
+    display: grid;
+    grid-template-columns: 48.5% 48.5%;
+    grid-auto-rows: auto;
+    grid-column-gap: 3%;
+    grid-row-gap: 2%;
+    margin-bottom: 20
+}
+
+div.celda1{
+    height: auto;
+    width: auto;
+    grid-row: 1/3;
+    background-color: aqua;
+    padding-bottom: 20px;
+    border-radius: 20px;
+}
+
+div.celda2{
+    height: auto;
+    width: auto;
+    background-color: blue;
+    grid-row: 1/2;
+    border-radius: 20px;
+}
+
+div.celda3{
+    height: auto;
+    width: auto;
+    background-color: blue;
+    grid-row: 3/4;
+    border-radius: 20px;
+}
+
+div.celda4{
+    height: auto;
+    width: auto;
+    grid-row: 2/4;
+    background-color: aqua;
+    padding-bottom: 20px;
+    border-radius: 20px;
+}
+
+div.celda5{
+    height: auto;
+    width: auto;
+    grid-row: 4/6;
+    background-color: aqua;
+    padding-bottom: 20px;
+    border-radius: 20px;
+}
+
+div.celda6{
+    height: auto;
+    width: auto;
+    background-color: blue;
+    grid-row: 4/5;
+    border-radius: 20px;
+}
+
+div.celda7{
+    height: auto;
+    width: auto;
+    background-color: blue;
+    grid-row: 6/7;
+    border-radius: 20px;
+}
+
+div.celda8{
+    height: auto;
+    width: auto;
+    grid-row: 5/7;
+    background-color: aqua;
+    padding-bottom: 20px;
+    border-radius: 20px;
+}
+
+
+
+
+
+
+p.titulo_funciones{
+    color: black; 
+    font-size: 40; 
+    font-family: Exo 2; 
+    margin: 20px 20px 0px 20px; 
+    font-weight: 100;
+    text-align: center;
+}
+
+p.functions_text{
+    margin: 20px 40px 0px 40px;
+}
+
+
+{}
+
 @media(max-width: 1500px){
     .su{
         display: block;
@@ -343,6 +443,79 @@ div.cc{
     }
     
     .funciones_button{
-        justify-content: center;
+        position: relative;
+        left: 25%
+    }
+    
+    div.second_level{
+        grid-template-columns: auto;
+        height: 600%;
+    }
+    
+    div.celda1{
+        height: auto;
+        width: auto;
+        background-color: aqua;
+        grid-row: 1/2;
+        border-radius: 20px;
+    }
+
+    div.celda2{
+        height: auto;
+        width: auto;
+        background-color: blue;
+        grid-row: 2/3;
+        border-radius: 20px;
+    }
+
+    div.celda3{
+        height: auto;
+        width: auto;
+        background-color: blue;
+        grid-row: 4/5;
+        border-radius: 20px;
+    }
+
+    div.celda4{
+        height: auto;
+        width: auto;
+        grid-row: 3/4;
+        background-color: aqua;
+        padding-bottom: 20px;
+        border-radius: 20px;
+    }
+
+    div.celda5{
+        height: auto;
+        width: auto;
+        grid-row: 5/6;
+        background-color: aqua;
+        padding-bottom: 20px;
+        border-radius: 20px;
+    }
+
+    div.celda6{
+        height: auto;
+        width: auto;
+        background-color: blue;
+        grid-row: 6/7;
+        border-radius: 20px;
+    }
+
+    div.celda7{
+        height: auto;
+        width: auto;
+        background-color: blue;
+        grid-row: 8/9;
+        border-radius: 20px;
+    }
+
+    div.celda8{
+        height: auto;
+        width: auto;
+        grid-row: 7/8;
+        background-color: aqua;
+        padding-bottom: 20px;
+        border-radius: 20px;
     }
 }
