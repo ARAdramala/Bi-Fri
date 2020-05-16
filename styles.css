@@ -419,10 +419,7 @@ p.functions_text{
     margin: 20px 40px 0px 40px;
 }
 
-
-{}
-
-@media(max-width: 1500px){
+/*@media(max-width: 1500px){
     .su{
         display: block;
         padding-left: 5vw;
@@ -519,4 +516,4 @@ p.functions_text{
         padding-bottom: 20px;
         border-radius: 20px;
     }
-}
+}*/
