@@ -331,7 +331,7 @@ div.second_level{
     grid-column-gap: 3%;
     grid-row-gap: 2%;
     margin-bottom: 20;
-    border: solid;
+    /*border: solid;*/
     margin-bottom: 25vh;
 }
 
