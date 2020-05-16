@@ -449,6 +449,7 @@ p.functions_text{
     
     div.second_level{
         grid-template-columns: auto;
+        grid-template-rows: auto;
         height: 600%;
     }
     
