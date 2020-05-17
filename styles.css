@@ -339,23 +339,25 @@ div.celda1{
     height: auto;
     width: auto;
     grid-row: 1/3;
-    background-color: aqua;
+    background-color: #481380;
     padding-bottom: 20px;
     border-radius: 20px;
+    color: white;
 }
 
 div.celda2{
     height: auto;
     width: auto;
-    background-color: blue;
+    background-color: #481380;
     grid-row: 1/2;
     border-radius: 20px;
+    color: white;
 }
 
 div.celda3{
     height: auto;
     width: auto;
-    background-color: blue;
+    background-color: #7f78d2;
     grid-row: 3/4;
     border-radius: 20px;
 }
@@ -364,16 +366,17 @@ div.celda4{
     height: auto;
     width: auto;
     grid-row: 2/4;
-    background-color: aqua;
+    background-color: #7f78d2;
     padding-bottom: 20px;
     border-radius: 20px;
+    color: white;
 }
 
 div.celda5{
     height: auto;
     width: auto;
     grid-row: 4/6;
-    background-color: aqua;
+    background-color: #efb1ff;
     padding-bottom: 20px;
     border-radius: 20px;
 }
@@ -381,7 +384,7 @@ div.celda5{
 div.celda6{
     height: auto;
     width: auto;
-    background-color: blue;
+    background-color: #efb1ff;
     grid-row: 4/5;
     border-radius: 20px;
 }
@@ -389,7 +392,7 @@ div.celda6{
 div.celda7{
     height: auto;
     width: auto;
-    background-color: blue;
+    background-color: #cff1ef;
     grid-row: 6/7;
     border-radius: 20px;
 }
@@ -398,15 +401,10 @@ div.celda8{
     height: auto;
     width: auto;
     grid-row: 5/7;
-    background-color: aqua;
+    background-color: #cff1ef;
     padding-bottom: 20px;
     border-radius: 20px;
 }
-
-
-
-
-
 
 p.titulo_funciones{
     color: black; 
@@ -420,6 +418,171 @@ p.titulo_funciones{
 p.functions_text{
     margin: 20px 40px 0px 40px;
 }
+
+div.third_level{
+    width: 100%;
+    height: auto;
+}
+
+div.downloads{
+    background-color: #fbcffc;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    margin-bottom: 30px;
+    border-radius: 20px;
+}
+
+div.download_logo{
+    width: 20%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div.download_logo img{
+    height: 80%;
+    width: 70%;
+}
+
+div.download_description{
+    width: 35%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div.download_links{
+    width: 33%;
+    height: auto;
+    padding-left: 2%;
+    background-color: #A24ACA;
+    display: flex;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+div.download_links img{
+    width: 180px;
+    height: auto;
+    margin: 10px;
+}
+
+div.animacion{
+    visibility: hidden;
+    z-index: 200;
+    animation: mymove 5s 1;
+    
+} 
+
+img.animation{
+    visibility: hidden;
+    z-index: 201;
+    animation: mymove2 5s 1;
+    width: 200px;
+    height: 200px;
+    position: fixed;
+    top: 30vh;
+    left: 45vw;
+}
+
+div.loading{
+    background-color: white;
+    visibility: hidden;
+    z-index: 201;
+    animation: mymove3 4.7s 1;
+    width: 200px;
+    height: 20px;
+    position: fixed;
+    top: 65vh;
+    left: 40vw;
+    border-radius: 10px;
+}
+
+div.texto{
+    color: white;
+    font-family: Exo;
+    visibility: hidden;
+    z-index: 201;
+    animation: mymove2 5s 1;
+    width: auto;
+    height: 20px;
+    position: fixed;
+}
+
+@keyframes mymove {
+    0%{
+        width: 100vw;
+        height: 100vw;
+        background: #A24ACA;
+        position: fixed;
+        top: 0px;
+        left: 0px;
+        visibility: visible;
+    }
+    
+    100%{
+        width: 100vw;
+        height: 100vw;
+        background: #A24ACA;
+        position: fixed;
+        top: 0px;
+        left: 0px;
+        z-index: 200;
+        visibility: visible;
+    }
+}
+
+@keyframes mymove2 {
+    0%{
+        visibility: visible;
+    }
+    
+    100%{
+        visibility: visible;
+    }
+}
+
+@keyframes mymove3 {
+    0%{
+        visibility: visible;
+        width: 0px;
+    }
+    
+    100%{
+        visibility: visible;
+        width: 400px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*@media(max-width: 1500px){
     .su{
