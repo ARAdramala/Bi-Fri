@@ -393,6 +393,8 @@ div.celda7{
     height: auto;
     width: auto;
     grid-row: 6/7;
+    background-color: black;
+    border-radius: 20px;
 }
 
 div.celda8{
