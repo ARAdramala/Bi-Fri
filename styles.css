@@ -595,6 +595,12 @@ div.job{
     border: solid lightgray;
 }
 
+.lowerer{
+    position: fixed; 
+    bottom: 0px; 
+    width: 100%;
+}
+
 @keyframes mymove {
     0%{
         width: 100vw;
@@ -640,11 +646,23 @@ div.job{
     }
 }
 
+@media(max-height: 1000px){
+    .lowerer{
+        position: relative; 
+        bottom: 0px; 
+        width: 100%;
+
+    }
+}
 
 
-
-
-
+@media(max-width: 1500px){
+    .su{
+        display: block;
+        padding-left: 10vw;
+        padding-right: 10vw;
+    }
+}
 
 
 
